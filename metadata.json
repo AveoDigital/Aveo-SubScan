@@ -1,0 +1,8 @@
+{
+  "name": "Aveo Subscriptions",
+  "description": "Premium subscription organizer and expense analyzer with a server-side Gemini AI Chat Copilot, active budget thresholds, calendar alerts, and instant CSV data export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

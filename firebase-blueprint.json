@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "subscriptions": {
+      "properties": {
+        "userId": { "type": "string" },
+        "serviceName": { "type": "string" },
+        "amount": { "type": "number" },
+        "currency": { "type": "string" },
+        "billingCycle": { "type": "string" },
+        "nextPaymentDate": { "type": "string" },
+        "alertEnabled": { "type": "boolean" },
+        "priceIncreased": { "type": "boolean" },
+        "renewalIncreaseAmount": { "type": "number" },
+        "previousPrice": { "type": "number" },
+        "category": { "type": "string" },
+        "source": { "type": "string" },
+        "status": { "type": "string" },
+        "emailSubject": { "type": "string" },
+        "emailDate": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "indexes": [
+        {
+          "fields": ["userId", "nextPaymentDate"]
+        }
+      ]
+    },
+    "userSettings": {
+      "properties": {
+        "email": { "type": "string" },
+        "lastScannedAt": { "type": "string" },
+        "currency": { "type": "string" },
+        "theme": { "type": "string" }
+      }
+    }
+  }
+}
